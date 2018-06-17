@@ -41,3 +41,8 @@ dataRef.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", functio
         $("#nextAriva").text(snapshot.val().firstTrn);
         $("#minAway").text(snapshot.val().freq);
 });
+
+// need to add timer
+// inteact with firebase
+// get data to actually transfer from input to list lection
+
